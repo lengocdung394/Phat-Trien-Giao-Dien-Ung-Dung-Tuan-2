@@ -39,7 +39,7 @@ export default function BaiTap01() {
             />
             <br />
             <br />
-            <div>
+            <div class="OpCss">
                 <input type="radio" name="group" value="+"/>+
                 <input type="radio" name="group" value="-" />-
                 <input type="radio" name="group" value="*" />*
