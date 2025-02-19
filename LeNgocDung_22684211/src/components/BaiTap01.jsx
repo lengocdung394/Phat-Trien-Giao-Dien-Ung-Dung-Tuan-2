@@ -17,7 +17,7 @@ export default function BaiTap01() {
             <br />
             <br />
             
-            <button onClick={handleClick}>Click me</button>
+            <button id='btn01' onClick={handleClick}>Click me</button>
             <br />
             <span>{text}</span>
 
