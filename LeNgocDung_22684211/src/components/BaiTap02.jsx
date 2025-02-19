@@ -19,7 +19,7 @@ export default function BaiTap01() {
     }
 
     return (
-        <>
+        <div class="line">
             <input onChange={handleChangeA} type="text" placeholder='input a'
             />
             <br />
@@ -28,9 +28,9 @@ export default function BaiTap01() {
             />
             <br />
             <br />
-            <button onClick={handleClick}>Click me</button>
+            <button id='btn' onClick={handleClick}>Click me</button>
             <br />
             <span>{result}</span>
-        </>
+        </div>
     )
 }

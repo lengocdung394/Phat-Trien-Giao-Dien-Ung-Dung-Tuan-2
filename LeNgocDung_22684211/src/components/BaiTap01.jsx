@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './BaiTap01.css';
 export default function BaiTap01() {
     const [name, setName] = useState('')
-    const [text, setText] = useState('') 
+    const [text, setText] = useState('')
     function handleClick() {
         setText(name)
     }
@@ -11,8 +11,8 @@ export default function BaiTap01() {
     }
 
     return (
-        <>
-            <input onChange={handleChange} type="text" 
+        <div class="line">
+            <input onChange={handleChange} type="text"
             />
             <br />
             <br />
@@ -20,6 +20,8 @@ export default function BaiTap01() {
             <button onClick={handleClick}>Click me</button>
             <br />
             <span>{text}</span>
-        </>
+
+            
+        </div>
     )
 }

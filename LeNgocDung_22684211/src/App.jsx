@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import BaiTap01 from './components/BaiTap01'
 import BaiTap02 from './components/BaiTap02'
+import BaiTap03 from './components/BaiTap03'
 function App() {
   
   return (
@@ -12,6 +13,10 @@ function App() {
       <br />
       <br />
       <BaiTap02></BaiTap02>
+      <br />
+      <br />
+      <BaiTap03></BaiTap03>
+      
     </>
    
   )
