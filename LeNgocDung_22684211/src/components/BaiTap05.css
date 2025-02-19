@@ -1,0 +1,18 @@
+li {
+    border: 1px solid #ccc;
+    margin: 0 0 5px 0;
+    display: 'flex';
+    justify-self: 'space-between';
+    align-items: 'center' ;
+    list-style-type: none;
+    background-color: antiquewhite;
+} 
+
+.line005{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 1070px;
+    background-color: #f9f9f9;
+}

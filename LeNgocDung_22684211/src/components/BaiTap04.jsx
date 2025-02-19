@@ -2,26 +2,40 @@ import { useState } from 'react'
 import './BaiTap04.css';
 export default function BaiTap04() {
     const [tab, setTab] = useState('')
+    const [content, setContent] = useState('')
     function handelTab(e) {
-        setTab(e.target.innerText)
+        switch(e.target.innerText) {
+            case 'Component':
+                setContent('Component content Component content  Component content  Component content ')
+                break
+            case 'JSX':
+                setContent('JSX content JSX content JSX content JSX content JSX content ')
+                break
+            case 'Props':
+                setContent('Props content Props content Props content Props content Props content ')
+                break
+            case 'State':
+                setContent('State content State content State content State content State content ')
+                break
+        }
     }
 
     const arr = [
         {
             tab: 'Component',
-            content: 'Component content'
+            content: 'Component content Component content  Component content  Component content ' 
         },
         {
             tab: 'JSX',
-            content: 'JSX content'
+            content: 'JSX content JSX content JSX content JSX content JSX content '
         },
         {
             tab: 'Props',
-            content: 'Props content'
+            content: 'Props content Props content Props content Props content Props content '
         },
         {
             tab: 'State',
-            content: 'State content'
+            content: 'State content State content State content State content State content '
         }
     ]
 
@@ -35,7 +49,7 @@ export default function BaiTap04() {
                 <br />
 
             </div>
-            <span>{tab}</span>
+            <span>{content}</span>
         </div>
     )
 }
