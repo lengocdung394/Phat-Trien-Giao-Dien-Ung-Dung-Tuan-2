@@ -6,7 +6,7 @@ export default function BaiTap04() {
         setTab(e.target.innerText)
     }
 
-    const arr =[
+    const arr = [
         {
             tab: 'Component',
             content: 'Component content'
@@ -26,12 +26,15 @@ export default function BaiTap04() {
     ]
 
     return (
-        <div class="line04">
-            <button onClick={handelTab}>Component</button>
-            <button onClick={handelTab}>JSX</button>
-            <button onClick={handelTab}>Props</button>
-            <button onClick={handelTab}>State</button>
-             <br />
+        <div class="line004">
+            <div class="line04">
+                <button onClick={handelTab}>Component</button>
+                <button onClick={handelTab}>JSX</button>
+                <button onClick={handelTab}>Props</button>
+                <button onClick={handelTab}>State</button>
+                <br />
+
+            </div>
             <span>{tab}</span>
         </div>
     )

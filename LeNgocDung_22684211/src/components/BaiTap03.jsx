@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './BaiTap03.css';
-export default function BaiTap01() {
+export default function BaiTap03() {
     const [a, setA] = useState('')
     const [b, setB] = useState('')
     const [result, setResult] = useState('')

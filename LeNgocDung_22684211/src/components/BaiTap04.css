@@ -1,5 +1,5 @@
 button{
-    width: 50%;
+    width: 100%;
     background-color: #28a16b;
     color: white;
     padding: 14px 20px;
@@ -8,11 +8,15 @@ button{
     border-radius: 4px;
     cursor: pointer;
 }
-.line04{
+.line004{
     border: 2px solid black;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 1070px;
     background-color: #f9f9f9;
+}
+.line04{
+    
+    display: flex;
 }

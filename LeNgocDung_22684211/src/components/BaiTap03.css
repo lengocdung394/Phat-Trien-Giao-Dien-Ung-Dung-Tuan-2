@@ -3,7 +3,7 @@ input {
     border-radius: 4px;
 }
 
-button{
+.OpCss button{
     width: 100%;
     background-color: aquamarine;
     color: white;
